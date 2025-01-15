@@ -1,5 +1,6 @@
-.Header{
+.Header {
     height: 34vw;
     margin: 30px auto;
-    background url();
+    background: url('/assets/chuteirasronaldo.png') no-repeat center center;
+    background-size: cover; /* Faz com que a imagem cubra a área da div */
 }
