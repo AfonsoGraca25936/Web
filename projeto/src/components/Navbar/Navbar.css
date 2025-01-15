@@ -1,11 +1,75 @@
-.navbar{
+.navbar {
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
+  
+  .lupa {
+    width: 50px; /* Increase width for a larger icon */
+    height: 50px; /* Increase height for a larger icon */
+  }
+  
+  .navbar .logo {
+    width: 150px;
+    margin-right: auto; /* Pushes the logo further to the left */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: black;
+    font-size: 18px;
+    justify-content: center; /* Center the menu items horizontally */
+    flex-grow: 1; /* Allow the menu to take up available space */
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Adjust space between icons and button */
+  }
+  
+  .navbar-right img {
+    width: 32px; /* Default icon size for cart or other icons */
+    height: 32px;
+    cursor: pointer; /* Makes the icons clickable */
+  }
+  
+  /* Larger search icon */
+  .navbar-right .search-icon {
+    width: 36px; /* Make the search icon larger */
+    height: 36px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: green;
+    color: white;
+  }
 
-img{ width: 5%;
-    height: 5%;
+  .navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+  }
 
-}
+  .navbar li{
+    cursor: pointer;
+  }
+
+
+
+
+  

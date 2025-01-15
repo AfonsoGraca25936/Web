@@ -13,3 +13,8 @@ a{
   text-decoration: none;
   color: green;
 }
+
+.app{
+  width: 80%;
+  margin: auto;
+}
